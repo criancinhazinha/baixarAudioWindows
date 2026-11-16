@@ -15,6 +15,8 @@ Aplicativo desktop nativo para **Windows 10/11** em **Python + PySide6 (Qt 6)** 
 
 ## Execução em Desenvolvimento
 
+Para abrir rapidamente no Windows sem terminal, dê um duplo clique em **`SonicFetch.bat`** (ou execute manualmente):
+
 ```powershell
 # 1. Criar e ativar ambiente virtual
 uv venv .venv --python 3.11
@@ -23,7 +25,7 @@ uv venv .venv --python 3.11
 # 2. Instalar dependências
 uv pip install -r requirements.txt
 
-# 3. Executar aplicativo
+# 3. Executar aplicativo (ou duplo clique em SonicFetch.bat)
 python -m src.main
 ```
 
