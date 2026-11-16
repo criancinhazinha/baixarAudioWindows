@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.spec.bak
+bin/*.exe
+.pytest_cache/
+*.part
+*.ytdl
